@@ -31,6 +31,13 @@
     border-radius: 10px;
 }
 
+.text1 {
+    /* border: 1px solid red; */
+    width: 80%;
+    margin: 0 auto 10px auto;
+}
+
+
 .text1 p {
     /* border: 1px solid green; */
     font-size: 20px;
@@ -39,13 +46,10 @@
     font-weight: 700;
 }
 
-.text2 p {
-    /* border: 1px solid black; */
-    color: lightgrey;
+.text1 span {
     font-size: 15px;
-    font-family: 'Outfit', sans-serif;
+    color: lightgrey;
     font-weight: 400;
-    margin-bottom: 15px;
 }
 
 .attribution {
@@ -56,6 +60,3 @@
 .attribution a {
     color: hsl(228, 45%, 44%);
 }
-
-
-@media (max-width:375px) {}
